@@ -19,7 +19,7 @@ jobs:
       with:
         python-version: '3.9'
 
-    - name: nstall Dependencies
+    - name: install Dependencies
       run: pip install -r requirements.txt
 
     - name: Run Tests
